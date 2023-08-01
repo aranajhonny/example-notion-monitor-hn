@@ -2,6 +2,7 @@
 
 This is a Membrane program that fetches top news stories from an API, filters them based on user-provided keywords, and appends the matching stories to a Notion page.
 
+The program is configured to run every hour to fetch the latest top stories.
 
 ## How to use
 
