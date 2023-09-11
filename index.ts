@@ -2,7 +2,7 @@ import { nodes, root, state } from "membrane";
 // Initialize the state.news
 state.news = state.news ?? [];
 
-export async function configure({ args: { keywords, notionPageId } }) {
+export async function configure({ keywords, notionPageId }) {
   state.keywords = keywords;
   // gref for the Notion page
   state.page = nodes.pages.one({ id: notionPageId });
